@@ -30,7 +30,7 @@
       "title": "Simples WebAPI Tester",
       "image": "./assets/img/Postman-porfolio.png",
       "description": "Es una herramienta para probar WebAPI, con un GUI en powershell.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman/Readme.md",
+      "link": "https://github.com/otomatico/portfolio/tree/main/SimplesWebAPITesting",
       "technologies": [
          "powershell",
          "C#5-netFramework4.X",
