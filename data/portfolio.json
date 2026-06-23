@@ -3,7 +3,7 @@
       "title": "Ágora",
       "image": "./assets/img/Agora-porfolio.png",
       "description": "Aplicacion flexible de proposito general que se adapta al cualquier negocio. Puede utilizar Docker, MySQL o SQLServer",
-      "link": "https://github.com/otomatico/portfolio/tree/main/agora",
+      "link": "https://github.com/otomatico/portfolio/tree/main/agora/Readme.md",
       "technologies": [
          "C#",
          "HTML5",
@@ -19,7 +19,7 @@
       "title": "Edit Pixel",
       "image": "./assets/img/EditPixel-porfolio.png",
       "description": "SPA para crear sprite de forma agil.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/editpixel",
+      "link": "https://github.com/otomatico/portfolio/tree/main/editpixel/Readme.md",
       "technologies": [
          "HTML5",
          "VanillaJS",
@@ -30,7 +30,7 @@
       "title": "Simples WebAPI Tester",
       "image": "./assets/img/Postman-porfolio.png",
       "description": "Es una herramienta para probar WebAPI, con un GUI en powershell.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman/Readme.md",
       "technologies": [
          "powershell",
          "C#5-netFramework4.X",
@@ -43,7 +43,7 @@
       "title": "MegaSnakePuzzle",
       "image": "./assets/img/MegaSnakePuzzle.jpg",
       "description": "Un juego de puzzle para consola retro MegaDriver/SegaGenesis.<br><video controls style='width: 300px;'src='./assets/video/MegaSnakePuzzle.mp4'>[video]</video>",
-      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "link": "https://github.com/otomatico/Ludico/tree/main/MegaDrive/MegaSnakePuzzle/Readme.md",
       "technologies": [
          "C",
          "SGDK"
@@ -53,7 +53,7 @@
       "title": "MegaSnakePuzzle-MapEditor",
       "image": "./assets/img/MegaSnakePuzzle-MapEditor.png",
       "description": "Herramienta para editar mapas de forma visual para el juego MegaSnakePuzzle.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "link": "https://github.com/otomatico/Ludico/tree/main/MegaDrive/MegaSnakePuzzle/map_editor",
       "technologies": [
          "HTML5",
          "JS",
@@ -61,20 +61,10 @@
       ]
    },
    {
-      "title": "Mini Postman",
-      "image": "./assets/img/Postman-porfolio.png",
-      "description": "Es una herramienta para probar WebAPI, con un GUI en powershell.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
-      "technologies": [
-         "powershell",
-         ".Net"
-      ]
-   },
-   {
       "title": "HTA Runtime",
       "image": "./assets/img/HTA-Runtime.jpeg",
       "description": "Es una herramienta que soporta y actualiza el mshta, a las nuevas tecnologias.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/hta-runtime",
+      "link": "https://github.com/otomatico/portfolio/tree/main/HTARuntime/Readme.md",
       "technologies": [
          "rust",
          "html5",
