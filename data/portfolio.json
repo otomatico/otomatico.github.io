@@ -43,7 +43,7 @@
       "title": "MegaSnakePuzzle",
       "image": "./assets/img/MegaSnakePuzzle.jpg",
       "description": "Un juego de puzzle para consola retro MegaDriver/SegaGenesis.<br><video controls style='width: 300px;'src='./assets/video/MegaSnakePuzzle.mp4'>[video]</video>",
-      "link": "https://github.com/otomatico/Ludico/tree/main/MegaDrive/MegaSnakePuzzle/Readme.md",
+      "link": "https://github.com/otomatico/portfolio/tree/main/MegaSnakePuzzle/Readme.md",
       "technologies": [
          "C",
          "SGDK"
@@ -53,7 +53,7 @@
       "title": "MegaSnakePuzzle-MapEditor",
       "image": "./assets/img/MegaSnakePuzzle-MapEditor.png",
       "description": "Herramienta para editar mapas de forma visual para el juego MegaSnakePuzzle.",
-      "link": "https://github.com/otomatico/Ludico/tree/main/MegaDrive/MegaSnakePuzzle/map_editor",
+      "link": "https://github.com/otomatico/portfolio/tree/main/MegaSnakePuzzle/map_editor",
       "technologies": [
          "HTML5",
          "JS",
@@ -76,7 +76,7 @@
       "title": "Reseva de Sala",
       "image": "./assets/img/Sala-Formacion.jpeg",
       "description": "Se trata de una de las primeras aplicaciones que hice solo (del 2008) portada y actualizada a 2026.\n La idea es que tienes varias sucursales con salas de reunion. Y necesita gestionar su reserva.",
-      "link": "https://github.com/otomatico/portfolio/tree/main/SalaFormacion",
+      "link": "https://github.com/otomatico/portfolio/tree/main/Reserva_de_Sala/Readme.md",
       "technologies": [
          "php 8.5",
          "html5",
