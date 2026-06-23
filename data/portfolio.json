@@ -1,0 +1,97 @@
+[
+   {
+      "title": "Ágora",
+      "image": "./assets/img/Agora-porfolio.png",
+      "description": "Aplicacion flexible de proposito general que se adapta al cualquier negocio. Puede utilizar Docker, MySQL o SQLServer",
+      "link": "https://github.com/otomatico/portfolio/tree/main/agora",
+      "technologies": [
+         "C#",
+         "HTML5",
+         "Bootstrap 5.3",
+         ".Net 6+",
+         "Dapper.Net",
+         "MySql",
+         "SQLServer",
+         "Docker"
+      ]
+   },
+   {
+      "title": "Edit Pixel",
+      "image": "./assets/img/EditPixel-porfolio.png",
+      "description": "SPA para crear sprite de forma agil.",
+      "link": "https://github.com/otomatico/portfolio/tree/main/editpixel",
+      "technologies": [
+         "HTML5",
+         "VanillaJS",
+         "CSS"
+      ]
+   },
+   {
+      "title": "Simples WebAPI Tester",
+      "image": "./assets/img/Postman-porfolio.png",
+      "description": "Es una herramienta para probar WebAPI, con un GUI en powershell.",
+      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "technologies": [
+         "powershell",
+         "C#5-netFramework4.X",
+         "C#11-dotnet6+",
+         "HTA-Html for Application",
+         ".Net"
+      ]
+   },
+   {
+      "title": "MegaSnakePuzzle",
+      "image": "./assets/img/MegaSnakePuzzle.jpg",
+      "description": "Un juego de puzzle para consola retro MegaDriver/SegaGenesis.<br><video controls style='width: 300px;'src='./assets/video/MegaSnakePuzzle.mp4'>[video]</video>",
+      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "technologies": [
+         "C",
+         "SGDK"
+      ]
+   },
+   {
+      "title": "MegaSnakePuzzle-MapEditor",
+      "image": "./assets/img/MegaSnakePuzzle-MapEditor.png",
+      "description": "Herramienta para editar mapas de forma visual para el juego MegaSnakePuzzle.",
+      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "technologies": [
+         "HTML5",
+         "JS",
+         "CSS"
+      ]
+   },
+   {
+      "title": "Mini Postman",
+      "image": "./assets/img/Postman-porfolio.png",
+      "description": "Es una herramienta para probar WebAPI, con un GUI en powershell.",
+      "link": "https://github.com/otomatico/portfolio/tree/main/postwoman",
+      "technologies": [
+         "powershell",
+         ".Net"
+      ]
+   },
+   {
+      "title": "HTA Runtime",
+      "image": "./assets/img/HTA-Runtime.jpeg",
+      "description": "Es una herramienta que soporta y actualiza el mshta, a las nuevas tecnologias.",
+      "link": "https://github.com/otomatico/portfolio/tree/main/hta-runtime",
+      "technologies": [
+         "rust",
+         "html5",
+         "css3",
+         "JavaScript ECMA6"
+      ]
+   },
+   {
+      "title": "Reseva de Sala",
+      "image": "./assets/img/Sala-Formacion.jpeg",
+      "description": "Se trata de una de las primeras aplicaciones que hice solo (del 2008) portada y actualizada a 2026.\n La idea es que tienes varias sucursales con salas de reunion. Y necesita gestionar su reserva.",
+      "link": "https://github.com/otomatico/portfolio/tree/main/SalaFormacion",
+      "technologies": [
+         "php 8.5",
+         "html5",
+         "css3",
+         "JavaScript ECMA6"
+      ]
+   }
+]

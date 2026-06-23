@@ -1,0 +1,18 @@
+[
+    { "name": "HTML5", "icon": "fab fa-html5" },
+    { "name": "CSS 3", "icon": "fab fa-css3-alt" },
+    { "name": "JavaScript", "icon": "fab fa-js" },
+    { "name": "Nodejs", "icon": "fab fa-node-js" },
+    { "name": "Angular", "icon": "fab fa-angular" },
+    { "name": "Vue", "icon": "fab fa-vuejs" },
+    { "name": "C#", "icon": "fab fa-microsoft" },
+    { "name": ".Net y .Net6+", "icon": "fab fa-microsoft" },
+    { "name": "Python", "icon": "fab fa-python" },
+    { "name": "PHP", "icon": "fab fa-php" },
+    { "name": "Laravel", "icon": "fab fa-laravel" },
+    { "name": "Java", "icon": "fab fa-java" },
+    { "name": "Docker", "icon": "fab fa-docker" },
+    { "name": "SQL Server", "icon": "fa fa-database" },
+    { "name": "MySQL", "icon": "fa fa-database" },
+    { "name": "GIT", "icon": "fab fa-git-alt" }
+]

@@ -1,0 +1,89 @@
+[
+   {
+      "company": "Alten-Airbus",
+      "period": "(10/2024 - Actual)",
+      "title": "Analista Programador Senior",
+      "responsibilities": [
+         "Gestión del Equipo BackEnd (MARA)",
+         "Toma de Requisito e implementación de (ATools)",
+         "Desarrollo de aplicación BackEnd (GR-DAS)",
+         "Mantenimiento de las Aplicaciones existentes (DocKontrol)"
+      ]
+   },
+   {
+      "company": "Alten – Logitravel/VECI(Viajes El Corte Ingles)",
+      "period": "(10/2023 - 10/2024)",
+      "title": "Analista Programador Senior",
+      "responsibilities": [
+         "Mantenimiento de las aplicaciones existentes",
+         "Colaboración en equipos ágiles (Scrum)."
+      ]
+   },
+   {
+      "company": "Aura IRC – Grupo SM",
+      "period": "(12/2021 - 10/2023)",
+      "title": "Analista Programador Senior",
+      "responsibilities": [
+         "Desarrollo de aplicaciones Web (B|Toven)",
+         "Mantenimiento de las aplicaciones existentes"
+      ]
+   },
+   {
+      "company": "Mnemo - BBVA",
+      "period": "(12/2019 - 09/2021)",
+      "title": "Analista Programador Senior",
+      "responsibilities": [
+         "Desarrollo de aplicaciones ad-hoc para las interconexiones con los servicios del cliente",
+         "Mantenimiento de las aplicaciones existentes."
+      ]
+   },
+   {
+      "company": "Unatec S.L",
+      "period": "(07/2019-11/2019)",
+      "title": "Analista Programador Senior",
+      "responsibilities": [
+         "Sistema inteligente de generación de órdenes de mantenimiento programados para centrales eólicas",
+         "Mantenimiento de la aplicación SEOS"
+      ]
+   },
+   {
+      "company": "Tenea Consulting para GrupoBC",
+      "period": "(09/2016-06/2019)",
+      "title": "Programador",
+      "responsibilities": [
+         "Integración con el sistema electrónico hipotecario digital",
+         "PRT: Pago Registro Telemático",
+         "4Eyes: Sistema automatizado de revisión de facturas hipotecarias",
+         "Mantenimiento de la aplicación COSMOS"
+      ]
+   },
+   {
+      "company": "Marktel SL",
+      "period": "(04/2016-08/2016)",
+      "title": "Programador",
+      "responsibilities": [
+         "Desarrollo de aplicaciones adhoc para las interconexiones con los servicios del cliente (Jazztel, Vodafone, Sanitas)",
+         "Desarrollo de aplicaciones internas",
+         "Scripts para Telemarketer (ORIGN de Grupo77)"
+      ]
+   },
+   {
+      "company": "GrupoBig",
+      "period": "(08/2009-04/2016)",
+      "title": "Programador Junion",
+      "responsibilities": [
+         "Desarrollo de aplicaciones adhoc para las interconexiones con los servicios del cliente (PSA, ADLPartner, ONO Sanitas)",
+         "Scripts para Telemarketer (TIPHONE de Adlantia)"
+      ]
+   },
+   {
+      "company": "Novavoz Soluciones para GrupoBig",
+      "period": "(06/2008-08/2009)",
+      "title": "Administrador de Sistema",
+      "responsibilities": [
+         "Mantenimiento del material informático",
+         "Administración de sistemas Vo-IP",
+         "Administrador de BBDD"
+      ]
+   }
+]

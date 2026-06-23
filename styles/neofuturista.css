@@ -1,0 +1,303 @@
+:root {
+    --primary: #00ffff;       /* Cian eléctrico */
+    --secondary: #6EE7B7;     /* Morado neón */
+    --dark: #0a0a0a;          /* Negro profundo */
+    --light: #f0f0f0;         /* Gris claro (para texto en fondos oscuros) */
+    --accent: #00E5B8;  
+    --glass: rgba(0, 255, 255, 0.1); /* Efecto vidrio */
+    --gradient-0:rgba(57, 255, 20, 0.1);
+    --shadow-cyan: 0 0 20px rgba(0, 255, 255, 0.5); /* Brillo cian */
+    --shadow-green: 0 0 20px rgba(57, 255, 20, 0.5); /* Brillo verde lima */
+}
+
+body {
+    font-family: 'Orbitron', 'Rajdhani', sans-serif;
+    line-height: 1.6;
+    color: var(--light);
+    background-color: var(--dark);
+    background-image:
+        radial-gradient(circle at 10% 20%, var(--gradient-0) 0%, transparent 30%),
+        radial-gradient(circle at 90% 80%, var(--gradient-0) 0%, transparent 30%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+    margin-bottom: 40px;
+    box-shadow: var(--shadow-cyan);
+}
+
+header img{
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--primary);
+    text-shadow: 0 0 10px var(--primary);
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.3em;
+    color: var(--light);
+    font-family: 'Exo 2', sans-serif;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info a {
+    color: var(--light);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    transition: all 0.3s;
+    background: var(--glass);
+}
+
+.contact-info a:hover {
+    background: var(--primary);
+    color: var(--dark);
+    box-shadow: var(--shadow-cyan);
+}
+
+.section {
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    /*box-shadow: var(--shadow-cyan);*/
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section:hover {
+    /*
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+    */
+    border-color:var(--primary);
+}
+
+.section h2 {
+    color: var(--light);
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 10px;
+    font-size: 2em;
+    margin-top: 0;
+    letter-spacing: 1px;
+    /*text-shadow: 0 0 5px var(--primary);*/
+}
+
+/* Experiencia y formación */
+.job {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    border-left: 3px solid var(--secondary);
+}
+
+.job h3 {
+    margin: 0 0 5px;
+    color: var(--secondary);
+    font-size: 1.4em;
+}
+
+.job p {
+    margin: 5px 0;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.job ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.job li {
+    margin-bottom: 8px;
+    color: var(--light);
+}
+
+/* Habilidades */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: rgba(57, 255, 20, 0.2); /* Fondo verde lima con transparencia */
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.accordion-button:hover, .skill:hover {
+    background: var(--accent);
+    color: var(--dark);
+    box-shadow: var(--shadow-green);
+}
+
+/* Portfolio */
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background: rgba(0, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.portfolio-item:hover {
+    background: var(--gradient-0);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.portfolio-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--primary);
+    box-shadow: var(--shadow-cyan);
+}
+
+.portfolio-item div {
+    flex: 1;
+}
+
+.portfolio-item h3 {
+    margin: 0 0 5px;
+    color: var(--primary);
+}
+
+.portfolio-item p {
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-item a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.portfolio-item a:hover {
+    text-shadow: 0 0 5px var(--accent);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: var(--glass);
+    border-top: 1px solid rgba(0, 255, 255, 0.2);
+    margin-top: 40px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+/* Efecto de brillo en el fondo */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 20% 30%, var(--gradient-0) 0%, transparent 20%),
+        radial-gradient(circle at 80% 70%, var(--gradient-0) 0%, transparent 20%); /* Verde lima en el fondo */
+    pointer-events: none;
+    z-index: -1;
+    animation: float 15s ease-in-out infinite;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .portfolio-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-info {
+        flex-direction: column;
+        gap: 15px;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+/* Estilo para el select en el tema neo-futurista */
+.style-switcher {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.style-switcher label {
+    color:var(--light);
+}
+
+.style-switcher select {
+    padding: 5px 8px;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    background: white;
+}
+
+#style-select {
+    border: 1px solid var(--primary);
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--primary);
+    border-radius: 0;
+    font-family: 'Orbitron', sans-serif;
+    height: auto;
+    padding: 5px 10px;
+    background-position: right 8px center;
+}
+
+.accordion-button{
+    background: rgba(57, 255, 20, 0.2);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+
+}

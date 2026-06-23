@@ -1,0 +1,358 @@
+/* === Windows 98 Theme === */
+:root {
+    --win98-light: #C0C0C0;    /* Gris claro (fondo de ventanas) */
+    --win98-dark: #808080;     /* Gris oscuro (bordes) */
+    --win98-blue: #008080;     /* Azul clásico de Windows 98 */
+    --win98-white: #FFFFFF;    /* Blanco */
+    --win98-black: #000000;    /* Negro */
+    --win98-highlight: #0000FF; /* Azul para resaltar (enlaces) */
+    --win98-text: #000000;     /* Texto negro */
+    --win98-disabled: #A0A0A0; /* Gris para elementos deshabilitados */
+}
+
+body {
+    font-family: "MS Sans Serif", Arial, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--win98-text);
+    background-color: var(--win98-light);
+    background-image:
+        radial-gradient(circle at 1px 1px, #808080 1px, transparent 0);
+    background-size: 20px 20px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+button{
+    color: var(--win98-text);
+    padding: 3px 8px;
+    background: var(--win98-light);
+    border: 2px outset var(--win98-dark);
+    font-size: 12px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado estilo ventana de Windows 98 */
+header {
+    background: linear-gradient(to right, #000080, #1084D0);
+    color: var(--win98-white);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-white) var(--win98-white) var(--win98-dark);
+    box-shadow: inset -1px -1px 0 var(--win98-dark), inset 1px 1px 0 var(--win98-white);
+    position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 2px,
+        rgba(255, 255, 255, 0.3) 2px,
+        rgba(255, 255, 255, 0.3) 4px
+    );
+}
+
+header img{
+    background: var(--win98-light);
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-white) var(--win98-white) var(--win98-dark);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 var(--win98-dark);
+    padding-left: 30px;
+   /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><rect width="16" height="16" fill="%23008080"/><path d="M0 0 L16 16 M16 0 L0 16" stroke="%23FFFFFF" stroke-width="2"/></svg>') no-repeat left center;*/
+    background-size: 20px 20px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+/* Barra de contacto estilo barra de herramientas */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    padding: 5px;
+    background: var(--win98-light);
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-white) var(--win98-white) var(--win98-dark);
+}
+
+.contact-info a {
+    color: var(--win98-text);
+    text-decoration: none;
+    padding: 3px 8px;
+    /*background: var(--win98-white);*/
+    background: var(--win98-light);
+    border: 2px solid;
+    border-color: var(--win98-white) var(--win98-dark) var(--win98-dark) var(--win98-white);
+    font-size: 12px;
+    transition: all 0.1s;
+}
+
+.contact-info a:hover {
+    background: var(--win98-blue);
+    color: var(--win98-white);
+    border-color: var(--win98-dark) var(--win98-dark) var(--win98-white) var(--win98-white);
+}
+
+/* Secciones estilo "ventanas" */
+.section {
+    background: var(--win98-white);
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-white) var(--win98-white) var(--win98-dark);
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: inset -1px -1px 0 var(--win98-dark), inset 1px 1px 0 var(--win98-white);
+}
+
+.section h2 {
+    color: var(--win98-blue);
+    border-bottom: 1px solid var(--win98-dark);
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-size: 16px;
+    background: var(--win98-light);
+    padding: 3px 5px;
+    border: 1px solid var(--win98-dark);
+}
+
+/* Experiencia y formación */
+.job {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 3px solid var(--win98-blue);
+}
+
+.job h3 {
+    margin: 0 0 5px;
+    color: var(--win98-blue);
+    font-size: 14px;
+}
+
+.job p {
+    margin: 3px 0;
+    font-style: italic;
+    color: var(--win98-text);
+}
+
+.job ul {
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+.job li {
+    margin-bottom: 5px;
+    color: var(--win98-text);
+}
+
+/* Habilidades estilo "botones" */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill {
+    background: var(--win98-light);
+    padding: 3px 8px;
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-white) var(--win98-white) var(--win98-dark);
+    font-size: 12px;
+    color: var(--win98-text);
+    cursor: default;
+}
+
+/* Portfolio estilo "iconos de escritorio" */
+.portfolio-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: var(--win98-light);
+    border: 1px solid var(--win98-dark);
+}
+
+.portfolio-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border: 1px solid var(--win98-dark);
+    background: var(--win98-white);
+}
+
+.portfolio-item div {
+    flex: 1;
+}
+
+.portfolio-item h3 {
+    margin: 0 0 5px;
+    color: var(--win98-blue);
+    font-size: 14px;
+}
+
+.portfolio-item p {
+    margin: 3px 0;
+    color: var(--win98-text);
+    font-size: 12px;
+}
+
+.portfolio-item a {
+    color: var(--win98-highlight);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página estilo barra de estado */
+footer {
+    text-align: center;
+    padding: 8px;
+    background: var(--win98-light);
+    border-top: 2px solid var(--win98-dark);
+    font-style: italic;
+    font-size: 12px;
+    color: var(--win98-text);
+    margin-top: 20px;
+}
+
+/* Efecto de "ventana activa" para el contenedor principal */
+.container {
+    border: 1px solid;
+    border-color: var(--win98-dark) var(--win98-white) var(--win98-white) var(--win98-dark);
+    background: var(--win98-light);
+    box-shadow: inset -1px -1px 0 var(--win98-dark), inset 1px 1px 0 var(--win98-white);
+}
+
+/* Scrollbar estilo Windows 98 */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--win98-light);
+    border: 1px solid var(--win98-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--win98-dark);
+    border: 1px solid var(--win98-white);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--win98-blue);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .portfolio-item {
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    header h1 {
+        font-size: 18px;
+    }
+}
+
+
+/* === Estilo para el select (combobox) en todos los temas === */
+
+/* Estilo del switch de temas (adaptado a Windows 98) */
+.style-switcher {
+    background: var(--win98-light);
+    padding: 2px;
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-light) var(--win98-light) var(--win98-dark);
+    box-shadow: inset -1px -1px 0 var(--win98-dark), inset 1px 1px 0 var(--win98-white);
+    font-family: "MS Sans Serif", Arial, sans-serif;
+    font-size: 12px;
+}
+
+.style-switcher label {
+    margin-right: 5px;
+    color: var(--win98-text);
+    vertical-align: middle;
+}
+
+.style-switcher select {
+    /* Apariencia general */
+    padding: 2px 4px;
+    border: 2px solid;
+    border-color: var(--win98-dark) var(--win98-light) var(--win98-light) var(--win98-dark);
+    background: var(--win98-white);
+    color: var(--win98-text);
+    cursor: pointer;
+    font-family: "MS Sans Serif", Arial, sans-serif;
+    font-size: 12px;
+    width:100px;
+    height: 22px;
+    box-shadow: inset -1px -1px 0 var(--win98-dark), inset 1px 1px 0 var(--win98-light);
+    appearance: none; /* Elimina el estilo por defecto del navegador */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><rect width="16" height="16" fill="%23C0C0C0"/><path d="M4 5 L8 9 L12 5" stroke="%23000000" stroke-width="1.5" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0px center;
+    background-size: 15px 15px;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+/* Estilo al hacer clic en el select */
+#style-select:focus {
+    outline: none;
+    border-color: var(--win98-dark) var(--win98-light) var(--win98-light) var(--win98-dark);
+    box-shadow: inset 1px 1px 0 var(--win98-text), inset -1px -1px 0 var(--win98-white);
+}
+
+/* Estilo para las opciones del select (no se puede personalizar mucho en la mayoría de navegadores) */
+#style-select option {
+    background: #FFFFFF;
+    color: #000000;
+    font-family: "MS Sans Serif", Arial, sans-serif;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+/* Estilo para el dropdown del select (no funciona en todos los navegadores) */
+#style-select::-ms-expand {
+    display: none; /* Oculta la flecha en IE */
+}
+
+/* Estilo para el dropdown en WebKit (Chrome, Safari) */
+#style-select::-webkit-scrollbar {
+    width: 16px;
+}

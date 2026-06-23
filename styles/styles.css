@@ -1,0 +1,158 @@
+/* Para el estilo old school */
+body[theme="oldschool"] .style-switcher {
+    background: rgba(245, 245, 220, 0.9);
+    color: #5e3023;
+    border: 1px solid #8b4513;
+}
+
+body[theme="oldschool"] .style-switcher select {
+    background: #f5f5dc;
+    border: 1px solid #8b4513;
+}
+
+/* Para el estilo neo-futurista */
+body[theme="neofuturista"] .style-switcher {
+    background: rgba(10, 10, 10, 0.9);
+    color: #00ffff;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+body[theme="neofuturista"] .style-switcher select {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #00ffff;
+    color: #00ffff;
+}
+
+@-moz-document url-prefix() {
+    #style-select {
+        padding: 2px 4px 2px 6px;
+        /* Ajusta el padding para Firefox */
+    }
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Estilo para el select en el tema por defecto */
+.style-switcher {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.style-switcher label {
+    margin-right: 10px;
+}
+
+.style-switcher select {
+    cursor: pointer;
+}
+
+/* Estilos para las pestañas */
+.tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs li {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.tabs li.active {
+    background: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 5px 5px 5px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+
+/* Estilos para el acordeón de experiencia */
+.hidden {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-button {
+    /*
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    */
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+/*
+.accordion-button:hover {
+    background: #e9ecef;
+}
+*/
+.accordion-button i {
+    transition: transform 0.3s;
+}
+
+/**modal para imagenes*/
+/* Estilo del modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Estilo de la imagen en el modal */
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+/* Estilo de las imágenes en el portfolio */
+.section.portfolio-grid img {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.section.portfolio-grid img:hover {
+  opacity: 0.8;
+}
